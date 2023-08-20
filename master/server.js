@@ -2,7 +2,7 @@ const express = require("express");
 const steelerRoutes = require("./src/steelers/routes");
 
 const app = express();
-const port = 5432;
+const port = 6002;
 
 app.use(express.json());
 
